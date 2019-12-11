@@ -11,7 +11,7 @@ $(".whack3").click(function(){
 });
     
 $(".reset").click(function(){
-    $(".mole1, .moleTwo, .thirdMole").show();
+    $(".mole1, .moleTwo, .thirdMole, .whack1, .whack2, .whack3").show();
 });
 $(".cheat").click(function(){
     $(".mole1, .moleTwo, .thirdMole, .whack1, .whack2, .whack3").toggle();
